@@ -1,7 +1,2 @@
 # Web3 Crowdfunding Platform As My First Blockchain Application
-![Crowdfunding](https://i.ibb.co/k6pj0Qt/htum-6.png)
-
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
-
-### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
+![image](https://github.com/user-attachments/assets/6e754a38-7748-4b93-a777-3ae0285dda6a)
