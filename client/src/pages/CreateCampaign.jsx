@@ -10,7 +10,7 @@ import { checkIfImage } from '../utils';
 const CreateCampaign = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
-  const { createCampaign } = useStateContext();
+  const { createCampaign, isWalletConnected } = useStateContext();
   const [form, setForm] = useState({
     name: '',
     title: '',
@@ -26,6 +26,10 @@ const CreateCampaign = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if(!isWalletConnected) {
+      return alert('Connect your wallet first');
+    }
 
     checkIfImage(form.image, async (exists) => {
       if(exists) {
